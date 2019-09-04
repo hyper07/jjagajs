@@ -12,16 +12,7 @@ var coveralls = require('gulp-coveralls')
 // 
 gulp.task('hello', function() {
     console.log((function() {
-        /*
-___  ___              _        _      
-|  \/  |             | |      (_)     
-| .  . |  ___    ___ | | __    _  ___ 
-| |\/| | / _ \  / __|| |/ /   | |/ __|
-| |  | || (_) || (__ |   <  _ | |\__ \
-\_|  |_/ \___/  \___||_|\_\(_)| ||___/
-                             _/ |     
-                            |__/    
-        */
+
     }).toString().split('\n').slice(2, -2).join('\n') + '\n')
 })
 

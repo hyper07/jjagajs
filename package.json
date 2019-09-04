@@ -1,9 +1,9 @@
 {
   "name": "jjagajs",
   "title": "Jjaga.js",
-  "description": "",
-  "version": "1.0.0-beta",
-  "homepage": "",
+  "description": "<!-- 模拟请求 & 模拟数据 --> [![Build Status](https://travis-ci.org/hyper07/jjaga.svg?branch=refactoring)](https://travis-ci.org/hyper07/jjaga)",
+  "version": "1.0.0-test",
+  "homepage": "https://github.com/hyper07/jjagajs#readme",
   "keywords": [
     "mock",
     "mockJSON",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyper07/jjagajs.git"
+    "url": "git+https://github.com/hyper07/jjagajs.git"
   },
   "main": "./dist/jjaga.js",
   "scripts": {
@@ -45,5 +45,12 @@
   ],
   "spm": {
     "main": "dist/jjaga.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hyper07/jjagajs/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
 }

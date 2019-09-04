@@ -1,6 +1,4 @@
 # Jjaga.js
-<!-- 模拟请求 & 模拟数据 -->
-[![Build Status](https://travis-ci.org/hyper07/jjaga.svg?branch=refactoring)](https://travis-ci.org/hyper07/jjaga)
 
 <!-- [![Coverage Status](https://coveralls.io/repos/hyper07/jjaga/badge.png?branch=refactoring)](https://coveralls.io/r/hyper07/jjaga?branch=refactoring)
 [![NPM version](https://badge.fury.io/js/jjagajs.svg)](http://badge.fury.io/js/jjagajs)

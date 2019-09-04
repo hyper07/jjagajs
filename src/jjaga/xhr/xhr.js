@@ -22,7 +22,7 @@
     http://www.w3.org/TR/XMLHttpRequest2/
 
     参考实现：
-    https://github.com/philikon/MockHttpRequest/blob/master/lib/mock.js
+    https://github.com/philikon/jjagaHttpRequest/blob/master/lib/jjaga.js
     https://github.com/trek/FakeXMLHttpRequest/blob/master/fake_xml_http_request.js
     https://github.com/ilinsky/xmlhttprequest/blob/master/XMLHttpRequest.js
     https://github.com/firebug/firebug-lite/blob/master/content/lite/xhr.js

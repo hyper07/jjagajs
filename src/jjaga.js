@@ -1,17 +1,17 @@
 /* global require, module, window */
-var Handler = require('./mock/handler')
-var Util = require('./mock/util')
-var Random = require('./mock/random')
-var RE = require('./mock/regexp')
-var toJSONSchema = require('./mock/schema')
-var valid = require('./mock/valid')
+var Handler = require('./jjaga/handler')
+var Util = require('./jjaga/util')
+var Random = require('./jjaga/random')
+var RE = require('./jjaga/regexp')
+var toJSONSchema = require('./jjaga/schema')
+var valid = require('./jjaga/valid')
 
 var XHR
-if (typeof window !== 'undefined') XHR = require('./mock/xhr')
+if (typeof window !== 'undefined') XHR = require('./jjaga/xhr')
 
 /*!
     Mock - 模拟请求 & 模拟数据
-    https://github.com/nuysoft/Mock
+    https://github.com/hyper07/jjaga
     墨智 mozhi.gyy@taobao.com nuysoft@gmail.com
 */
 var Mock = {

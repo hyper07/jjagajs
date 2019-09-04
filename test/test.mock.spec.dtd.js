@@ -490,7 +490,7 @@ describe('DTD', function() {
 
     /*
         按照 http://www.regexr.com/ 的 Reference 设计测试用例。
-        https://github.com/nuysoft/Mock/blob/7c1e3a686bcc515855f1f583d70ae0ee89acc65e/test/regexp.js#L120
+        https://github.com/hyper07/jjaga/blob/7c1e3a686bcc515855f1f583d70ae0ee89acc65e/test/regexp.js#L120
      */
     describe('RegExp', function() {
         function validRegExp(regexp) {

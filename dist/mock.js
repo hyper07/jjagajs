@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/*!
 	    Mock - 模拟请求 & 模拟数据
-	    https://github.com/nuysoft/Mock
+	    https://github.com/hyper07/jjaga
 	    墨智 mozhi.gyy@taobao.com nuysoft@gmail.com
 	*/
 	var Mock = {
@@ -529,7 +529,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        try {
 	            // 1. 尝试保持参数的类型
 	            /*
-	                #24 [Window Firefox 30.0 引用 占位符 抛错](https://github.com/nuysoft/Mock/issues/24)
+	                #24 [Window Firefox 30.0 引用 占位符 抛错](https://github.com/hyper07/jjaga/issues/24)
 	                [BX9056: 各浏览器下 window.eval 方法的执行上下文存在差异](http://www.w3help.org/zh-cn/causes/BX9056)
 	                应该属于 Window Firefox 30.0 的 BUG
 	            */
@@ -8114,7 +8114,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    http://www.w3.org/TR/XMLHttpRequest2/
 
 	    参考实现：
-	    https://github.com/philikon/MockHttpRequest/blob/master/lib/mock.js
+	    https://github.com/philikon/jjagaHttpRequest/blob/master/lib/jjaga.js
 	    https://github.com/trek/FakeXMLHttpRequest/blob/master/fake_xml_http_request.js
 	    https://github.com/ilinsky/xmlhttprequest/blob/master/XMLHttpRequest.js
 	    https://github.com/firebug/firebug-lite/blob/master/content/lite/xhr.js

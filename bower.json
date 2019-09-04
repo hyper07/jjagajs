@@ -1,7 +1,7 @@
 {
-  "name": "mockjs",
-  "title": "Mock.js",
-  "main": "dist/mock.js",
+  "name": "jjagajs",
+  "title": "Jjaga.js",
+  "main": "dist/jjaga.js",
   "license": "MIT",
   "ignore": [
     "**/.*",

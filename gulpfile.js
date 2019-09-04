@@ -56,11 +56,11 @@ gulp.task('jshint', function() {
 // https://webpack.github.io/docs/usage-with-gulp.html
 gulp.task("webpack", function( /*callback*/ ) {
     webpack({
-        entry: './src/mock.js',
+        entry: './src/jjaga.js',
         output: {
             path: './dist',
-            filename: 'mock.js',
-            library: 'Mock',
+            filename: 'jjaga.js',
+            library: 'Jjaga',
             libraryTarget: 'umd'
         }
     }, function(err /*, stats*/ ) {
@@ -68,12 +68,12 @@ gulp.task("webpack", function( /*callback*/ ) {
         if (err) throw err
     })
     webpack({
-        entry: './src/mock.js',
+        entry: './src/jjaga.js',
         devtool: 'source-map',
         output: {
             path: './dist',
-            filename: 'mock-min.js',
-            library: 'Mock',
+            filename: 'jjaga-min.js',
+            library: 'Jjaga',
             libraryTarget: 'umd'
         },
         plugins: [
@@ -133,7 +133,7 @@ gulp.task('istanbul', function(cb) {
         })
 })
 gulp.task('istanbulForMochaPhantomJS', function(cb) {
-    gulp.src(['dist/mock.js'])
+    gulp.src(['dist/jjaga.js'])
         .pipe(istanbul()) // Covering files
         .pipe(istanbul.hookRequire()) // Force `require` to return covered files
         .on('finish', function() {
